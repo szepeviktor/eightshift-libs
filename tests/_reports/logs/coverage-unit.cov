@@ -1,0 +1,855 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/interface-service.php' => 
+  array (
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/examples/class-main.php' => 
+  array (
+    39 => 
+    array (
+      0 => 'Main_Tests::test_get_service_classes_returns_array',
+    ),
+    43 => NULL,
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/interface-registrable.php' => 
+  array (
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/class-main.php' => 
+  array (
+    46 => 
+    array (
+    ),
+    48 => 
+    array (
+    ),
+    49 => 
+    array (
+    ),
+    63 => 
+    array (
+    ),
+    64 => 
+    array (
+    ),
+    67 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    70 => 
+    array (
+    ),
+    71 => 
+    array (
+    ),
+    73 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+    76 => 
+    array (
+    ),
+    77 => 
+    array (
+    ),
+    79 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    90 => NULL,
+    103 => 
+    array (
+    ),
+    104 => 
+    array (
+    ),
+    105 => 
+    array (
+    ),
+    106 => 
+    array (
+    ),
+    109 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    124 => 
+    array (
+    ),
+    125 => 
+    array (
+    ),
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    130 => 
+    array (
+    ),
+    133 => 
+    array (
+    ),
+    134 => NULL,
+    146 => 
+    array (
+    ),
+    147 => NULL,
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/blocks/class-attribute-type-enums.php' => 
+  array (
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/blocks/class-base-block.php' => 
+  array (
+    44 => 
+    array (
+    ),
+    45 => 
+    array (
+    ),
+    47 => 
+    array (
+    ),
+    48 => 
+    array (
+    ),
+    49 => 
+    array (
+    ),
+    50 => 
+    array (
+    ),
+    51 => 
+    array (
+    ),
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    55 => 
+    array (
+    ),
+    56 => 
+    array (
+    ),
+    75 => 
+    array (
+    ),
+    76 => 
+    array (
+    ),
+    77 => 
+    array (
+    ),
+    79 => 
+    array (
+    ),
+    80 => 
+    array (
+    ),
+    81 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    84 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    86 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    90 => 
+    array (
+    ),
+    91 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    93 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    104 => 
+    array (
+    ),
+    114 => 
+    array (
+    ),
+    115 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    139 => 
+    array (
+    ),
+    141 => 
+    array (
+    ),
+    142 => 
+    array (
+    ),
+    144 => 
+    array (
+    ),
+    145 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    149 => 
+    array (
+    ),
+    150 => 
+    array (
+    ),
+    151 => 
+    array (
+    ),
+    152 => 
+    array (
+    ),
+    153 => 
+    array (
+    ),
+    154 => 
+    array (
+    ),
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/blocks/interface-block.php' => 
+  array (
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/custom-post-type/class-base-post-type.php' => 
+  array (
+    26 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/custom-post-type/class-label-generator.php' => 
+  array (
+    83 => 
+    array (
+    ),
+    84 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    86 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    91 => 
+    array (
+    ),
+    93 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    97 => 
+    array (
+    ),
+    99 => 
+    array (
+    ),
+    101 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    105 => 
+    array (
+    ),
+    107 => 
+    array (
+    ),
+    109 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    113 => 
+    array (
+    ),
+    115 => 
+    array (
+    ),
+    117 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    121 => 
+    array (
+    ),
+    123 => 
+    array (
+    ),
+    125 => 
+    array (
+    ),
+    127 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    131 => 
+    array (
+    ),
+    133 => 
+    array (
+    ),
+    135 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    139 => 
+    array (
+    ),
+    141 => 
+    array (
+    ),
+    143 => 
+    array (
+    ),
+    144 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    148 => 
+    array (
+    ),
+    149 => 
+    array (
+    ),
+    150 => 
+    array (
+    ),
+    151 => 
+    array (
+    ),
+    152 => 
+    array (
+    ),
+    153 => 
+    array (
+    ),
+    154 => 
+    array (
+    ),
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    157 => 
+    array (
+    ),
+    158 => 
+    array (
+    ),
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/custom-taxonomy/class-base-taxonomy.php' => 
+  array (
+    28 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    37 => 
+    array (
+    ),
+    38 => 
+    array (
+    ),
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/exception/class-failed-to-load-view.php' => 
+  array (
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/exception/class-invalid-callback.php' => 
+  array (
+    27 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/exception/class-invalid-nouns.php' => 
+  array (
+    27 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/exception/class-invalid-service.php' => 
+  array (
+    27 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/exception/class-missing-block.php' => 
+  array (
+    24 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    40 => 
+    array (
+    ),
+    41 => 
+    array (
+    ),
+    42 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    44 => 
+    array (
+    ),
+    46 => 
+    array (
+    ),
+    47 => 
+    array (
+    ),
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/exception/class-missing-manifest.php' => 
+  array (
+    28 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/exception/general-exception-interface.php' => 
+  array (
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/interface-renderable.php' => 
+  array (
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/rest-routes/interface-callable-field.php' => 
+  array (
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/rest-routes/interface-callable-rest.php' => 
+  array (
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/rest-routes/interface-field.php' => 
+  array (
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/rest-routes/interface-route.php' => 
+  array (
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/examples/admin/class-faq-taxonomy.php' => 
+  array (
+    42 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    51 => 
+    array (
+    ),
+    52 => 
+    array (
+    ),
+    60 => 
+    array (
+    ),
+    61 => 
+    array (
+    ),
+    62 => 
+    array (
+    ),
+    63 => 
+    array (
+    ),
+    64 => 
+    array (
+    ),
+    65 => 
+    array (
+    ),
+    67 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    70 => 
+    array (
+    ),
+    71 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+    75 => 
+    array (
+    ),
+    76 => 
+    array (
+    ),
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/examples/admin/class-faq_post_type.php' => 
+  array (
+    41 => 
+    array (
+    ),
+    42 => 
+    array (
+    ),
+    50 => 
+    array (
+    ),
+    51 => 
+    array (
+    ),
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    55 => 
+    array (
+    ),
+    57 => 
+    array (
+    ),
+    58 => 
+    array (
+    ),
+    59 => 
+    array (
+    ),
+    60 => 
+    array (
+    ),
+    61 => 
+    array (
+    ),
+    62 => 
+    array (
+    ),
+    63 => 
+    array (
+    ),
+    64 => 
+    array (
+    ),
+    65 => 
+    array (
+    ),
+    66 => 
+    array (
+    ),
+    67 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    70 => 
+    array (
+    ),
+    71 => 
+    array (
+    ),
+  ),
+  '/Users/ruzevic/projects/infinum/eightshift-libs/examples/blocks/heading/class-heading.php' => 
+  array (
+    33 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    37 => 
+    array (
+    ),
+    38 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    40 => 
+    array (
+    ),
+    41 => 
+    array (
+    ),
+    42 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    44 => 
+    array (
+    ),
+    45 => 
+    array (
+    ),
+    46 => 
+    array (
+    ),
+    47 => 
+    array (
+    ),
+    48 => 
+    array (
+    ),
+    49 => 
+    array (
+    ),
+    50 => 
+    array (
+    ),
+  ),
+));
+$coverage->setTests(array (
+  'Main_Tests::test_get_service_classes_exists' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Main_Tests::test_get_service_classes_returns_array' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UNCOVERED_FILES_FROM_WHITELIST' => 
+  array (
+    'size' => 'unknown',
+    'status' => NULL,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/blocks/class-attribute-type-enums.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/blocks/class-base-block.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/blocks/interface-block.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/class-main.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/custom-post-type/class-base-post-type.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/custom-post-type/class-label-generator.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/custom-taxonomy/class-base-taxonomy.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/exception/class-failed-to-load-view.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/exception/class-invalid-callback.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/exception/class-invalid-nouns.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/exception/class-invalid-service.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/exception/class-missing-block.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/exception/class-missing-manifest.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/exception/general-exception-interface.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/interface-registrable.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/interface-renderable.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/interface-service.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/rest-routes/interface-callable-field.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/rest-routes/interface-callable-rest.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/rest-routes/interface-field.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/src/rest-routes/interface-route.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/examples/admin/class-faq-taxonomy.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/examples/admin/class-faq_post_type.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/examples/blocks/heading/class-heading.php' => true,
+  '/Users/ruzevic/projects/infinum/eightshift-libs/examples/class-main.php' => true,
+));
+
+return $coverage;

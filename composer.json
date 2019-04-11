@@ -23,12 +23,17 @@
   },
   "require-dev": {
     "infinum/coding-standards-wp": "^0.4.1",
-    "dealerdirect/phpcodesniffer-composer-installer": "^0.5"
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
+    "phpunit/phpunit": "^6.5",
+    "brain/monkey": "^2.2",
+    "codedungeon/phpunit-result-printer": "^0.20.1"
   },
   "autoload": {
-    "psr-4": {
-      "Eightshift_Libs\\": "src/"
-    }
+    "classmap": [
+      "examples/",
+      "src/",
+      "tests/"
+    ]
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
@@ -39,6 +44,8 @@
   },
   "scripts": {
     "check-cs": "@php ./vendor/bin/phpcs",
-    "fix-cs": "@php ./vendor/bin/phpcbf"
+    "fix-cs": "@php ./vendor/bin/phpcbf",
+    "punit": "@php ./vendor/bin/phpunit -c phpunit.xml.dist --no-coverage --colors=always",
+    "punit-cov": "@php ./vendor/bin/phpunit -c phpunit.xml.dist --colors=always"
   }
 }

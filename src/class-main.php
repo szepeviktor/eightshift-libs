@@ -85,7 +85,7 @@ abstract class Main implements Service {
    *
    * @since 1.0.0
    */
-  protected function get_manifest_url() : string {
+  public function get_manifest_url() : string {
     return get_template_directory() . '/skin/public/manifest.json';
   }
 
@@ -142,7 +142,7 @@ abstract class Main implements Service {
    *
    * @since 1.0.0
    */
-  protected function get_service_classes() : array {
+  public function get_service_classes() : array {
     return [];
   }
 }

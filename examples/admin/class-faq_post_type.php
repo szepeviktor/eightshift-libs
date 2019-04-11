@@ -16,7 +16,7 @@ use Eightshift_Libs\Custom_Post_Type\Label_Generator;
  *
  * @since 1.0.0
  */
-final class Faq extends Base_Post_Type {
+final class Faq_Post_Type extends Base_Post_Type {
 
   /**
    * The custom post type type slug

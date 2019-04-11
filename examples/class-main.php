@@ -6,14 +6,15 @@
  * theme-facing side of the site and the admin area.
  *
  * @since   1.0.0
- * @package Custom_Namespace\Includes
+ * @package Custom_Namespace\Core
  */
 
-namespace Custom_Namespace\Includes;
+namespace Custom_Namespace\Core;
 
 use Eightshift_Libs\Core\Main as LibMain;
 
 use Custom_Namespace\Admin;
+use Custom_Namespace\Blocks;
 
 /**
  * The main start class.
@@ -33,9 +34,11 @@ class Main extends LibMain {
    *
    * @return array<string> Array of fully qualified class names.
    */
-  protected function get_service_classes() : array {
+  public function get_service_classes() : array {
     return [
-      Admin\Admin::class,
+      Admin\Faq_Post_Type::class,
+      Admin\Faq_Taxonomy::class,
+      Blocks\Faq_Taxonomy::class,
     ];
   }
 }
